@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Slap", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+header,
+footer {
+    color: rgb(248, 246, 246);
+    background-color: rgb(134, 40, 40);
+    font-size: large;
+    width: 100vw;
+}
+
+nav {
+    padding: 1cm;
+    width: 100%;
+}
+
+.nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+ 
+#search {
+    border: none;
+    border-radius: 100px;
+    padding: 8px 0 8px 29px;
+    font-size: medium;
+}
+
+.search nav_li6 {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+img,
+button {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn.nav_li7,
+.btn.nav_li8,
+button {
+    background-color: rgb(37, 37, 244);
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 6px 14px;
+}
+
+.btn.nav_li7 a,
+.btn.nav_li8 a {
+    color: aliceblue;
+}
